@@ -22,7 +22,7 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3",
     "babel-plugin-inferno": "^6.6.0",
-    "bulma-stylus": "0.8.0",
+    "bulma-stylus": "0.9.1",
     "deepmerge": "^4.2.2",
     "hexo-component-inferno": "^2.0.2",
     "hexo-log": "^3.0.0",
