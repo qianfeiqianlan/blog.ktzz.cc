@@ -1671,6 +1671,11 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
+csstype@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
+  integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
+
 cuid@^2.1.4:
   version "2.1.8"
   resolved "https://registry.npmmirror.com/cuid/-/cuid-2.1.8.tgz#cbb88f954171e0d5747606c0139fb65c5101eac0"
@@ -2634,6 +2639,13 @@ inferno-create-element@^7.3.3:
   dependencies:
     inferno "7.4.11"
 
+inferno-create-element@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-8.1.0.tgz#28e50fce313df4d5129030aeba1edde6cf5a48cc"
+  integrity sha512-sqXaHwJl/bDu1+O3ahi+XxgdYteme+0SM+ZOgLB3DLlhN/aGUAtL4/EWkOaFoPMaYl7uJZ/GHCv+3V6JeF0Zvw==
+  dependencies:
+    inferno "8.1.0"
+
 inferno-server@^7.3.3:
   version "7.4.11"
   resolved "https://registry.npmmirror.com/inferno-server/-/inferno-server-7.4.11.tgz#05ec0f7ceea4a30da412baaccbbfeca258db27cf"
@@ -2651,6 +2663,11 @@ inferno-vnode-flags@7.4.11:
   resolved "https://registry.npmmirror.com/inferno-vnode-flags/-/inferno-vnode-flags-7.4.11.tgz#642a835a8dde514f244296b27c176a2b8704fbac"
   integrity sha512-L7lslEQCq3IfwgT/b9zhuMf8fv6KXCNXXHZevk/WYxnqJsOWGDcKpJn0zkzXfvmj0otbB149iLUQVBq3oe2sfA==
 
+inferno-vnode-flags@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-8.1.0.tgz#284b4fa0f53d90f75e9cf3bf54726d3df475336b"
+  integrity sha512-m5uBJAYBan4LRn87ulKYI2mmTBwCOvE5Jmg2ouFuRL1IQ5v1B3ehSV6ipTMtKOrCJbCqkx5nbsCsuRffSRRXwg==
+
 inferno@7.4.11, inferno@^7.3.3:
   version "7.4.11"
   resolved "https://registry.npmmirror.com/inferno/-/inferno-7.4.11.tgz#fcee308cf0e4a2f6066d96da74e3b425583bfc66"
@@ -2658,6 +2675,15 @@ inferno@7.4.11, inferno@^7.3.3:
   dependencies:
     inferno-shared "7.4.11"
     inferno-vnode-flags "7.4.11"
+    opencollective-postinstall "^2.0.3"
+
+inferno@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-8.1.0.tgz#8c5c7c5d8a0972a93022dc58b004a80863c0aaa3"
+  integrity sha512-LfyC5zOejkBPPnnS4s5qGvxWwq3e333BTE0N4vDwgWzLXTY8s46XmF1L3O5dAML8JLzCko5IPquBzAUbig8rpQ==
+  dependencies:
+    csstype "^3.1.1"
+    inferno-vnode-flags "8.1.0"
     opencollective-postinstall "^2.0.3"
 
 inflight@^1.0.4:
