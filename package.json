@@ -33,7 +33,7 @@
     "inferno": "^7.3.3",
     "inferno-create-element": "^7.3.3",
     "moment": "^2.22.2",
-    "semver": ">=5.0.0",
+    "semver": ">=7.4.0",
     "ali-oss": "^4.8.0",
     "bluebird": "^3.4.7",
     "chalk": "^1.1.3",
