@@ -2,7 +2,7 @@
 
 var pathFn = require('path'),
     fs = require('hexo-fs'),
-    OSS = require('ali-oss').Wrapper,
+    OSS = require('ali-oss'),
     Promise = require('bluebird'),
     chalk = require('chalk');
 
