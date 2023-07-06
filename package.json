@@ -24,6 +24,7 @@
     "babel-plugin-inferno": "^6.6.0",
     "bulma-stylus": "0.9.1",
     "deepmerge": "^4.2.2",
+    "hexo-component-inferno": "^2.0.3",
     "hexo-component-inferno": "^2.0.2",
     "hexo-log": "^4.0.1",
     "hexo-pagination": "^3.0.0",
