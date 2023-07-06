@@ -2326,6 +2326,13 @@ inferno-create-element@^7.3.3:
   dependencies:
     inferno "7.4.11"
 
+inferno-create-element@^8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-8.1.1.tgz#f135ea6fb784d2024148845eeb4f752da6252f0d"
+  integrity sha512-RzoRK/gl6kADO9hzviChjCLvD5whsUJE5k71ordYuq/6aixdLaiizebthNkE+18ZKoN6VUXH1PlczaMPu/YIpQ==
+  dependencies:
+    inferno "8.1.1"
+
 inferno-server@^7.3.3:
   version "7.4.11"
   resolved "https://registry.npmmirror.com/inferno-server/-/inferno-server-7.4.11.tgz#05ec0f7ceea4a30da412baaccbbfeca258db27cf"
