@@ -13,7 +13,7 @@ module.exports = function (args, callback) {
 
     args.accessKeyId = process.env.OSS_ACCESS_KEY_ID
     args.accessKeySecret = process.env.OSS_ACCESS_KEY_SECRET
-    
+
     if (!args.bucket || !args.region || !args.accessKeyId || !args.accessKeySecret) {
         var help = [
             'You should argsure deployment settings in _config.yml first!',
@@ -62,12 +62,7 @@ module.exports = function (args, callback) {
                 throw err;
             });
     }))
-        .then(function(){
-            return client.putBucketWebsite(args.bucket, args.region, {
-                index: 'index.html',
-                error: 'error.html'
-            });
-        });
+        .then(function () { });
 };
 
 function traverseFiles(dir, handle) {
