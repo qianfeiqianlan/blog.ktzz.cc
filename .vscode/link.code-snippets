@@ -1,0 +1,9 @@
+{
+  "link": {
+    "prefix": "link",
+    "body": [
+      "[$1]($2)"
+    ],
+    "description": ""
+  },
+}

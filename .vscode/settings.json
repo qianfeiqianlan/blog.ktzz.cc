@@ -3,5 +3,8 @@
         "ktzz",
         "leeoo",
         "webp"
-    ]
+    ],
+    "[markdown]":  {
+        "editor.quickSuggestions": true
+    }
 }

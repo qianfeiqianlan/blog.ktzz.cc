@@ -1,0 +1,16 @@
+{
+  "img": {
+    "prefix": "img",
+    "body": [
+      "![$1](/img/$2)"
+    ],
+    "description": ""
+  },
+  "img-install-mqtt": {
+    "prefix": "img-install-mqtt",
+    "body": [
+      "![$1](/img/install-mqtt/$2.jpg)"
+    ],
+    "description": ""
+  }
+}
