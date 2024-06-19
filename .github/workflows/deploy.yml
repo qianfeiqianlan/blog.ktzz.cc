@@ -1,29 +1,31 @@
 name: Deploy CI
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   # pull_request:
   #   branches: [ "master" ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
         node-version: [14.x]
-    env: 
+    env:
       OSS_ACCESS_KEY_ID: ${{ secrets.OSS_ACCESS_KEY_ID }}
       OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
-      
+      OAUTH_GITHUB_CLIENT_ID: ${{ secrets.OAUTH_GITHUB_CLIENT_ID }}
+      OAUTH_GITHUB_SECRET: ${{ secrets.OAUTH_GITHUB_SECRET }}
+
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm i
-    - run: npm run build --if-present
-    - run: npm run deploy
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npm i
+      - run: npm run pre-deploy
+      - run: npm run build --if-present
+      - run: npm run deploy
