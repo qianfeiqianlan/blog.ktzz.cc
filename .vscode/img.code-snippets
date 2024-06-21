@@ -7,9 +7,9 @@
     "description": ""
   },
   "img-install-mqtt": {
-    "prefix": "img-install-mqtt",
+    "prefix": "img-mqtt",
     "body": [
-      "![$1](/img/install-mqtt/$2.jpg)"
+      "![$1](/img/mqtt/$2.jpg)"
     ],
     "description": ""
   }

@@ -1,5 +1,5 @@
 ---
-title: 安装 MQTT 服务器集群
+title: 安装 MQTT 服务集群
 date: 2024-06-19 19:07:21
 categories:
   - 软件部署
