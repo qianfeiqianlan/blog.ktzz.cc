@@ -1,4 +1,10 @@
 ---
 title: {{ title }}
-tags:
+date: {{ date }}
+index_img: /img/message.jpg
+banner_img: /img/message.jpg
+categories:
+  - 
+  - 
+  - 
 ---
