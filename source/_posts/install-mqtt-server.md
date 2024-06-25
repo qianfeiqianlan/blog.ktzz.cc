@@ -88,3 +88,5 @@ mqttx bench conn -c 10
 [https://www.emqx.com/zh/blog/emqx-mqtt-broker-k8s-cluster](https://www.emqx.com/zh/blog/emqx-mqtt-broker-k8s-cluster)
 [https://www.emqx.com/zh/blog/install-emqx-mqtt-broker#%E4%BD%BF%E7%94%A8-docker-%E5%AE%89%E8%A3%85-emqx](https://www.emqx.com/zh/blog/install-emqx-mqtt-broker#%E4%BD%BF%E7%94%A8-docker-%E5%AE%89%E8%A3%85-emqx)
 [https://docs.emqx.com/zh/emqx/latest/deploy/cluster/create-cluster.html](https://docs.emqx.com/zh/emqx/latest/deploy/cluster/create-cluster.html)
+
+> 本文首发于技术博客 [Leeoo’s Blog](https://blog.ktzz.cc)，如果觉得这篇文章有所帮助，请不要犹豫，将它分享给那些可能从中受益的朋友和同事。您的支持是我继续创作高质量内容的动力。此外，如果有任何问题或想要进一步讨论的话题，请在下面的评论区留下想法。非常期待深入的交流

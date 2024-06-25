@@ -10,7 +10,7 @@
     "pre-deploy": "node pre-deploy.js"
   },
   "hexo": {
-    "version": "6.3.0"
+    "version": "7.2.0"
   },
   "dependencies": {
     "ali-oss": "^6.18.1",

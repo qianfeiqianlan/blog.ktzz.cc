@@ -2,14 +2,7 @@
   "img": {
     "prefix": "img",
     "body": [
-      "![$1](/img/$2)"
-    ],
-    "description": ""
-  },
-  "img-install-mqtt": {
-    "prefix": "img-mqtt",
-    "body": [
-      "![$1](/img/mqtt/$2.jpg)"
+      "![$1](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/$2)"
     ],
     "description": ""
   }
