@@ -17,9 +17,9 @@ jobs:
       OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
       OAUTH_GITHUB_CLIENT_ID: ${{ secrets.OAUTH_GITHUB_CLIENT_ID }}
       OAUTH_GITHUB_SECRET: ${{ secrets.OAUTH_GITHUB_SECRET }}
-      OSS_ACCESS_KEY_SECRET: ${{ secrets.LEANCLOUD_APP_ID }}
-      OAUTH_GITHUB_CLIENT_ID: ${{ secrets.LEANCLOUD_APP_KEY }}
-      OAUTH_GITHUB_SECRET: ${{ secrets.LEANCLOUD_SERVER_URL }}
+      LEANCLOUD_APP_ID: ${{ secrets.LEANCLOUD_APP_ID }}
+      LEANCLOUD_APP_KEY: ${{ secrets.LEANCLOUD_APP_KEY }}
+      LEANCLOUD_SERVER_URL: ${{ secrets.LEANCLOUD_SERVER_URL }}
 
     steps:
       - uses: actions/checkout@v3
