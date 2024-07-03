@@ -1,5 +1,5 @@
 ---
-title: 安装 MQTT 服务集群
+title: 基于 docker-compose 安装 MQTT 服务集群
 date: 2024-06-19 19:07:21
 categories:
   - 软件部署
@@ -21,9 +21,9 @@ banner_img: /img/message.jpg
 
 可以使用阿里云抢占式实例做为测试部署服务器，为了方便 docker 镜像下载方便可以把机器开在香港地区
 
-![开通抢占式实例机器](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/1.jpg)
-![4C8G Centos7](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/2.jpg)
-![开通公网 IP、按量计费](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/3.jpg)
+![开通抢占式实例机器](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/1.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
+![4C8G Centos7](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/2.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
+![开通公网 IP、按量计费](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/3.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
 
 > 服务器启动好之后 ssh 连接到服务器上继续后续操作
 
@@ -54,17 +54,17 @@ git clone https://github.com/emqx/emqx-usage-example
 cd emqx-usage-example/mqtt-lb-nginx/
 docker compose up -d
 ```
-![正常部署成功界面如图所示](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/5.jpg)
+![正常部署成功界面如图所示](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/5.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
 
 ## 部署验证
 
 部署成功我们可以访问服务器的 18083 端口，访问 MQTT 集群的 dashboard, 默认账号是 admin，密码是 public，登录以后会提示你修改密码
 
-![查看服务情况](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/6.jpg)
-![访问 18083 端口登录，默认账密是 admin/public](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/7.jpg)
-![提示修改密码](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/8.jpg)
-![查看概览](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/9.jpg)
-![查看节点](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/10.jpg)
+![查看服务情况](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/6.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
+![访问 18083 端口登录，默认账密是 admin/public](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/7.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
+![提示修改密码](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/8.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
+![查看概览](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/9.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
+![查看节点](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/10.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
 
 ## 连接验证
 我们可以使用 MQTT cli 进行连接验证，下面是验证方法
@@ -77,9 +77,9 @@ install ./mqttx-cli-linux-x64 /usr/local/bin/mqttx
 mqttx bench conn -c 10
 ```
 
-![安装 MQTT cli](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/13.jpg)
-![查看连接情况](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/11.jpg)
-![可以看到已经有 10 个客户端连接](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/12.jpg)
+![安装 MQTT cli](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/13.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
+![查看连接情况](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/11.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
+![可以看到已经有 10 个客户端连接](https://images-ktzz.oss-cn-beijing.aliyuncs.com/blogs/install-mqtt/12.jpg?x-oss-process=image/watermark,image_YmxvZ3Mvd2F0ZXJtYXJrLnBuZw)
 
 > 安装完成，可以正常访问使用
 
