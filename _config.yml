@@ -135,7 +135,7 @@ feed:
   limit: 20
   hub:
   content:
-  content_limit: 140
+  content_limit: 0
   content_limit_delim: " "
   order_by: -date
   icon: icon.png
