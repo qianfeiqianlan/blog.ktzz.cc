@@ -28,6 +28,6 @@
     "hexo-theme-fluid": "^1.9.8",
     "hexo-theme-landscape": "^1.0.0",
     "live2d-widget-model-hibiki": "^1.0.5",
-    "yaml": "^2.5.1"
+    "yaml": "^2.7.0"
   }
 }
